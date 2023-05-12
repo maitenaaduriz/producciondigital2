@@ -1,0 +1,73 @@
+title{
+  background-color:black;
+  color: black;
+  font-family: sans-serif;
+  margin: auto;
+}
+body{
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 800px;
+    padding:0;
+    background-color: burlywood;
+    color: white;
+   align-items: center;
+   
+    margin: 0 auto;
+
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+
+    padding: 5px;
+    background-color: blue;
+    color:black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  padding-top: 1px;
+  }
+ul a {
+text-decoration: none;
+color: black;
+}
+ul a:hover {
+  text-decoration: underline;
+}
+h1{
+  font-family: 'Instrument Serif', serif;
+  color: black;
+  font-size: 45px;
+}
+.contenedorimagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+.fila1,
+.fila2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fila1 img,
+.fila2 img {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  object-fit: cover;
+}
+footer img{
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
